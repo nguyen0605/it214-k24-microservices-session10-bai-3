@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: storex-gateway-service
+  main:
+    web-application-type: reactive
+
+logging:
+  level:
+    com.storex.promotion: DEBUG
+    org.springframework.web.reactive: INFO
